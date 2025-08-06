@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Dana Auto Parts</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#"><img src="images/Logo.png.webp" alt="Dana Auto Parts">Dana Auto Parts</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Account.html">Account</a></li>
+            <li><a href="Cart.php"><img src="images/cart.png.jpg" width="auto" height="30px" alt="Cart Icon"></a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+
+    <div class="hero-about">
+        <div class="hero-content">
+            <h1>Driving Excellence in Auto Parts</h1>
+            <p>Your trusted partner for heavy vehicle spare parts since 2010</p>
+        </div>
+    </div>
+
+    <section class="about-story">
+        <div class="container">
+            <div class="story-content">
+                <h2>Our Journey</h2>
+                <p>Founded in 2010, Dana Auto Parts began as a small supplier with a big vision - to revolutionize the heavy vehicle parts industry with quality, reliability, and exceptional service.</p>
+                <p>Today, we serve hundreds of businesses across the region, supplying premium parts for trucks, buses, and heavy machinery.</p>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10,000+</span>
+                        <span class="stat-label">Parts in Stock</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="story-image">
+                <img src="images/warehouse.jpg" alt="Our warehouse">
+            </div>
+        </div>
+    </section>
+
+    <section class="values-section">
+        <h2>Our Core Values</h2>
+        <div class="values-container">
+            <div class="value-card">
+                <i class="fas fa-medal"></i>
+                <h3>Quality</h3>
+                <p>We source only from certified manufacturers with proven track records.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-clock"></i>
+                <h3>Reliability</h3>
+                <p>Consistent performance you can count on mile after mile.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Integrity</h3>
+                <p>Honest advice and transparent pricing with no hidden costs.</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-headset"></i>
+                <h3>Support</h3>
+                <p>Expert technical assistance when you need it most.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2>Meet Our Experts</h2>
+            <p>Our team of certified professionals brings decades of combined experience in heavy vehicle mechanics and parts supply.</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/mechanic1.webp" alt="Team member">
+                    </div>
+                    <h3>Dinesh Hirantha </h3>
+                    <p>Head of Technical Services</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/mechanic2.webp" alt="Team member">
+                    </div>
+                    <h3>kasun Nethsara</h3>
+                    <p>Parts Specialist</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="images/mechanic3.jpg" alt="Team member">
+                    </div>
+                    <h3>Nilantha Jayasuriya</h3>
+                    <p>Customer Relations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Experience the Dana Difference?</h2>
+            <p>Contact us today to discuss your heavy vehicle parts needs.</p>
+            <a href="" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <footer class="about-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/Logo.png.webp" alt="Dana Auto Parts">
+                <p>Your trusted heavy vehicle parts supplier</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Dana Auto Parts. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
